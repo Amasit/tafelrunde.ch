@@ -1,0 +1,47 @@
+body {
+	font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	text-align: center;
+}
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+img {
+	margin-top: 30px;
+}
+#info, #instagramm, #spreadshirt, #links, #amazon, #adsense {
+	border-bottom: 1px solid #000;
+	margin-top: 20px;
+	text-align: left;
+}
+#spreadshirt {
+	padding-top: 20px;
+}
+#cocktail iframe {
+	font-family: Georgia;
+	font-size: 0.75em;
+	border: none;
+	margin: 20px 0 0 -8px;
+}
+p {
+	font-size: 0.75em;
+}
+h1 {
+	font-size: 0.9em;
+}
+h2 {
+	font-size: 0.8em;
+}
+a, a:visited{
+	color: #666;
+	text-decoration: none;
+	font-weight: normal;
+}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+object {
+	display: block;
+	margin: 10px 0;
+}
