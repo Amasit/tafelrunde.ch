@@ -2,8 +2,16 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="fb51ff65-5e2c-4e89-9116-a373291583c0" name="local" url="http://tafelrunde/">
+      <webServer id="fb51ff65-5e2c-4e89-9116-a373291583c0" name="local" url="http://tafelrunde:8080/">
         <fileTransfer port="0" mountedRoot="C:\Privat\www-local\tafelrunde" accessType="MOUNT" />
+      </webServer>
+      <webServer id="c22fc745-056e-41ae-a9cf-37b76aac9728" name="webserver" url="http://ftp.tafelrunde.ch">
+        <fileTransfer host="ftp.tafelrunde.ch" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
       </webServer>
     </option>
   </component>
